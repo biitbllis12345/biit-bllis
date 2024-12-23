@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bite Bliss - Recipes for Every One</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('hero.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    .hero a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .hero a:hover {
+      background-color: #0056b3;
+    }
+
+    /* Recipe Section */
+    .recipes {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .recipe-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .recipe-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .recipe-card h3 {
+      margin: 1rem 0;
+      color: #333;
+    }
+
+    .recipe-card p {
+      color: #666;
+      padding: 0 1rem;
+    }
+
+    .recipe-card a {
+      display: block;
+      margin: 1rem auto;
+      padding: 0.5rem 1rem;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      width: fit-content;
+    }
+
+    .recipe-card a:hover {
+      background-color: #0056b3;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    .footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div>
+      <img src="logo.jpg" alt="Bite Bliss Logo" style="height: 3rem;">
+      <span style="font-size: 1.5rem; margin-left: 1rem;">Bite Bliss</span>
+    </div>
+    <div>
+      <a href="#recipes">Recipes</a>
+      <a href="#about-us">About Us</a>
+      <a href="#contact-us">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1> <a href="#recipes">
+Discover Your Recipes</h1></a>
+    <p><a href="#recipes">Cook with Love, Serve with Joy</p></a>
+    <a href="#recipes">Explore Recipes</a>
+  </div>
+
+  <!-- Recipes Section -->
+  <div id="recipes" class="recipes">
+    <div class="recipe-card">
+      <img src="breakfast.jpg" alt="Breakfast Recipe">
+      <h3>Hearty Breakfast</h3>
+      <p>Start your day with a delicious, nutritious meal.</p>
+      <a href="#">View Recipe</a>
+    </div>
+    <div class="recipe-card">
+      <img src="food.jpg" alt="Lunch Recipe">
+      <h3>Light Lunch</h3>
+      <p>Quick and healthy lunch options to fuel your day.</p>
+      <a href="#">View Recipe</a>
+    </div>
+    <div class="recipe-card">
+      <img src="hook.jpg" alt="Dinner Recipe">
+      <h3>Comforting Dinner</h3>
+      <p>Satisfy your cravings with hearty dinner recipes.</p>
+      <a href="#">View Recipe</a>
+    </div>
+    <div class="recipe-card">
+      <img src="C:\Users\aneax\OneDrive\Documents\new website\kein.jpeg" alt="Dessert Recipe">
+      <h3>Delicious Dessert</h3>
+      <p>End your meal on a sweet note with our desserts.</p>
+      <a href="#">View Recipe</a>
+    </div>
+
+  </div>
+<!-- About Us Section -->
+<div id="about-us" style="padding: 2rem; background-color: #fff;">
+  <div style="max-width: 800px; margin: auto; text-align: center;">
+    <h2 style="color: #333;">About Bite Bliss</h2>
+    <p style="color: #666; font-size: 1.1rem; line-height: 1.6; margin-top: 1rem;">
+      Welcome to Bite Bliss, your ultimate destination for flavorful, wholesome recipes. 
+      Our mission is to bring joy to your dining table with easy-to-follow recipes that celebrate the art of cooking at home.
+    </p>
+    <p style="color: #666; font-size: 1.1rem; line-height: 1.6; margin-top: 1rem;">
+      Whether you're a seasoned chef or just starting your culinary journey, our curated collection of recipes caters to all skill levels 
+      and tastes. From hearty breakfasts to indulgent desserts, each recipe is designed to make cooking both enjoyable and satisfying.
+    </p>
+    <p style="color: #666; font-size: 1.1rem; line-height: 1.6; margin-top: 1rem;">
+      At Bite Bliss, we believe that cooking is more than just preparing meals—it's about sharing love, creating memories, and nourishing the soul.
+      Join our community and discover the bliss of cooking with fresh ingredients and a dash of creativity!
+    </p>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>
+      <a href="#about-us">About Us</a> |
+      <a href="#privacy">Privacy Policy</a> |
+      <a href="#contact-us">Contact Us</a>
+    </p>
+    <p>&copy; 2024 Bite Bliss. All Rights Reserved</p>
+  </div>
+
+</body>
+</html>
+
+
